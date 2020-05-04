@@ -1,0 +1,194 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  font-weight: 600;
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  color: white;
+}
+
+.big-heading, .ctah3 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.big-heading {
+  text-align: left;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.ctah3 {
+  padding: 50px;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+@media(max-width:1028px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+/* SECTIONS BACKGROUND COLORS */
+.colored-section-pink{
+    background-color: #ff4668;
+}
+.colored-section-peach{
+  background-color: #ef8172;
+}
+.white-section{
+    background-color: white;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+/* IMAGES */
+.receipt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.printed {
+  width: 50%;
+  padding: 40px 20px 0 0;
+  border-radius: 100%;
+}
+
+.logo {
+  width: 10%;
+  display: inline-block;
+  margin: 6%;
+}
+
+.testi {
+  width: 130px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+/* BUTTONS */
+.signup {
+  position: absolute;
+  bottom: 25px;
+  width: 80%;
+  left: 10%;
+  color: white;
+  background-color: #ff4668;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.signup-outline {
+  position: absolute;
+  bottom: 25px;
+  width: 80%;
+  left: 10%;
+  border: 1px solid #ff4c68;
+  background-color: white;
+}
+
+.signup:hover, .signup-outline:hover{
+  background-color: #ef8172;
+}
+
+/* POSITIONING */
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.middle {
+  margin: 0 auto;
+}
+
+/* TOP CONTAINER */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* FEATURES */
+.features {
+  width: 100%;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*Testimonials*/
+#testimonials {
+  padding: 5% 15%0 15%;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* FOOTER */
+#footer {
+  margin: 50px;
+}
+
+.footer-icon {
+  margin: 5px 10px 30px;
+}
+
+/* PRICING */
+#pricing {
+  padding: 70px 15px 30px 15px;
+}
+
+.list-unstyled li {
+  line-height: 2;
+}
